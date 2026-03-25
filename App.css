@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  background: #f3f4f6;
+}
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 500px;
+  background: white;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.progress {
+  height: 8px;
+  background: #e5e7eb;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #10b981;
+  transition: 0.3s ease;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.age-card {
+  padding: 30px;
+  text-align: center;
+  border-radius: 16px;
+  border: 2px solid #e5e7eb;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.age-card:hover {
+  border-color: #10b981;
+}
+
+.age-card.active {
+  border-color: #10b981;
+  background: #d1fae5;
+}
+
+.option {
+  padding: 16px;
+  border-radius: 14px;
+  border: 2px solid #e5e7eb;
+  margin-bottom: 12px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.option:hover {
+  border-color: #10b981;
+}
+
+.option.active {
+  border-color: #10b981;
+  background: #d1fae5;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 14px;
+  border: none;
+  background: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.final-screen {
+  text-align: center;
+}
+
+.plan-box {
+  background: #f9fafb;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px 0;
+  text-align: left;
+}
+
+.plan-box li {
+  margin-bottom: 8px;
+}
